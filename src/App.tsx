@@ -1,9 +1,10 @@
 import './App.css';
+import AuthorizationForm from './components/AuthorizationForm';
 
 function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <AuthorizationForm />
     </div>
   );
 }

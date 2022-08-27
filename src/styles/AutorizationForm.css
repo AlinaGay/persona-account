@@ -1,0 +1,9 @@
+.autorization-form {  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+input {
+  height: 30px;
+}
