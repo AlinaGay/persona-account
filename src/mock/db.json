@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "alinochca_@mail.ru",
+      "password": "ajkhfdka"
+    },
+    {
+      "id": 2,
+      "email": "opolskaya.alina@yandex.ru",
+      "password": "dshgfhjs"
+    },
+    {
+      "id": 3,
+      "email": "opolskaia.alina@gmail.com",
+      "password": "alkjdfad"
+    }
+  ] 
+}
