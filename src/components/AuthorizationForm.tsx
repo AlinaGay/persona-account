@@ -39,13 +39,14 @@ class AuthorizationForm extends Component<IProps, IUser>  {
           <input
             type="text"
             id="email"
-            value={email}
-            onChange={this.handleChange}
+            value = { email }
+            onChange = { this.handleChange }
           />
           <input
             type="text"
             id="password"
-            value={password}
+            value = { password }
+            onChange = { this.handleChange }
           />
         </div>
         <button type="submit">Log in</button>
