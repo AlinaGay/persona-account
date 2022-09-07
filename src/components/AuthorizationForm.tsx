@@ -15,18 +15,18 @@ class AuthorizationForm extends Component<IProps, IUser>  {
     };
 
     this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    // this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange (event: { target: { id: string; value: string; }; }) {
     this.setState({[event.target.id]: event.target.value});
   }
 
-  handleSubmit (event) {
-    event.preventDefault();
-    const {title} = this.state;
-    this.props.add
-  }
+  // handleSubmit (event) {
+  //   event.preventDefault();
+  //   const {title} = this.state;
+  //   this.props.add
+  // }
     
 
   render() {
@@ -40,6 +40,7 @@ class AuthorizationForm extends Component<IProps, IUser>  {
             type="text"
             id="email"
             value={email}
+            onChange={this.handleChange}
           />
           <input
             type="text"
